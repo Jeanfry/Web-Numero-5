@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Navegacion HTML</title>
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	
+<div id="icono">
+  		<img src="img/iconogamer.png">
+    </div>
+
+
+    <div id="icono2">
+  		<img src="img/iconogamer.png">
+    </div>
+
+  <header> 
+  	
+
+       <div id="titulo1">
+       	<h2> Juegos a Full Gamer </h2>
+       </div>
+ 
+  	      
+  </header>
+
+    
+
+
+    <div id="top"></div>
+
+	<nav  class="navega" >
+		<a style="background: #9AECDB" href="#" title="">Home</a>
+
+		<a style="background: #9AECDB" href="Trucos/trucos.html" title="">Trucos</a>
+
+		<a style="background: #9AECDB" href="Mapas/mapa.html" title="">Mapas</a>
+
+		<a style="background: #9AECDB" href="contacto" title="">Contacto</a>
+		
+		</nav>
+
+
+		<div id="titulo2">
+			
+
+		</div>
+
+
+	<section id="seccionuno">
+		
+		   <!-- poner una imagen en el html  <img src="img/black.jpg">>-->
+
+		        <div>
+
+               		<textarea placeholder="Comentarios" id="comentario1" ></textarea>
+
+               	</div>
+
+    </section>
+
+
+	<section id="secciondos">
+		<h2>Seccion 2</h2>
+	</section>
+
+	
+	<div>
+
+		<a href="#top" title="Volver arriba"><img src="btn_top.png" alt=""></a>
+	</div>
+     
+     <!--< Se usa para Escrivir sin efectos "></a>-->
+
+
+
+   <footer>
+   	
+   </footer>
+
+</body>
+</html># Auto detect text files and perform LF normalization
+* text=auto

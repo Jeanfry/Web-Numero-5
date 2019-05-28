@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
+*{margin:0;padding: 0; }
+html{
+	font-family: "Open Sans", "Arial", sans-serif;
+}
+
+
+
+body {
+background-image: url(../img/fondo12.jpg);
+}
+
+
+
+
+ /*headre*/
+.fondo { background-image: url(../img/fondo3.jpeg);
+background-repeat: no-repeat;
+margin-left: auto;
+margin-right: auto;
+background-position: center;
+height: 220px;
+border: 4px solid #34495e;
+border-radius: 8px;
+}
+
+
+#titulo1 { /*Juegos a Full Gamer*/
+	border: 4px solid #74b9ff;
+	border-radius: 8px;
+	margin-top: 2%;
+	background: #25CCF7;
+	}
+#titulo1 h2 {
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+
+header .row img {
+position: absolute;
+z-index: 1;
+width: 4%;
+margin-top: 0.5%;
+}
+header .row #joistick1 img {
+
+}
+header .row #joistick2 img {
+right: 1%;
+}
+#barra {
+background-image: url(../img/previ.png);
+border: 4px solid #0097e6;
+border-radius: 8px;
+}
+
+/*poner animaciones*/
+
+.home a {
+position: relative;
+padding: 10px 20px;
+
+background: #058d9e;
+color: #fff;
+text-transform: uppercase;
+font-family: sans-serif;
+text-decoration: none;
+letter-spacing: 4px;
+transform-style: preserve-3d;
+transition: ease-in-out 2s;
+border-radius: 60px;
+}
+
+.home a span {	
+font-weight: bold;
+transform-style: preserve-3d;
+transform: perspective(100px) translateZ(20px);
+}
+.home a:before{
+content: "";
+position: absolute;
+top: 4px;
+left: 6px;
+right: 6px;
+bottom: 4px;
+border: 2px solid #fff;
+transform-style: preserve-3d;
+transform: perspective(500px) translateZ(15px);
+border-radius: 60px;
+}
+
+.truco a{
+position: relative;
+padding: 10px 20px;
+background: #058d9e;
+color: #fff;
+text-transform: uppercase;
+font-family: sans-serif;
+text-decoration: none;
+letter-spacing: 4px;
+transform-style: preserve-3d;
+transition: ease-in-out 2s;
+border-radius: 60px;
+}
+
+.truco a span {
+font-weight: bold;
+transform-style: preserve-3d;
+transform: perspective(100px) translateZ(20px);
+}
+.truco a:before{
+content: "";
+position: absolute;
+top: 4px;
+left: 6px;
+right: 6px;
+bottom: 4px;
+border: 2px solid #fff;
+transform-style: preserve-3d;
+transform: perspective(500px) translateZ(15px);
+border-radius: 60px;
+}
+
+.mapa a{
+position: relative;
+padding: 10px 20px;
+background: #058d9e;
+color: #fff;
+text-transform: uppercase;
+font-family: sans-serif;
+text-decoration: none;
+letter-spacing: 4px;
+transform-style: preserve-3d;
+transition: ease-in-out 2s;
+border-radius: 60px;
+}
+.mapa a:before{
+content: "";
+position: absolute;
+top: 4px;
+left: 6px;
+right: 6px;
+bottom: 4px;
+border: 2px solid #fff;
+transform-style: preserve-3d;
+transform: perspective(500px) translateZ(15px);
+border-radius: 60px;
+}
+.contactoid a{
+position: relative;
+padding: 10px 15px;
+
+background: #058d9e;
+color: #fff;
+text-transform: uppercase;
+font-family: sans-serif;
+text-decoration: none;
+letter-spacing: 4px;
+transform-style: preserve-3d;
+transition: ease-in-out 2s;
+border-radius: 60px;
+}
+.contactoid a:before{
+content: "";
+position: absolute;
+top: 4px;
+left: 6px;
+right: 6px;
+bottom: 4px;
+border: 2px solid #fff;
+transform-style: preserve-3d;
+transform: perspective(500px) translateZ(15px);
+border-radius: 60px;
+}
+
+/*Fin del Header*/
+
+
+
+
+
+
+
+
+

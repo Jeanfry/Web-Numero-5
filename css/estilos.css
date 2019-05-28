@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
+*{margin:0;padding: 0; }
+html{
+	font-family: "Open Sans", "Arial", sans-serif;
+}
+body { 
+	background-image: url(../img/fondo12.jpg);
+
+}
+/*background-repeat: no-repeat no se repita la imagen ;*/
+
+
+/*fondo del header*/
+.fondo { background-image: url(../img/fondo3.jpeg);
+background-repeat: no-repeat;
+margin-left: auto;
+margin-right: auto;
+background-position: center;
+height: 220px;
+border: 4px solid #34495e;
+border-radius: 8px;
+}
+.mario{
+	position: absolute;
+	z-index: 10;
+
+}
+.mario img{
+width: 40%;
+margin-top: 70%;
+margin-left: 25%;
+opacity: 0;
+}
+.mario img:hover{
+width: 40%;
+margin-top: 70%;
+margin-left: 35%;
+
+opacity: 1;
+}
+
+
+#titulo1 { /*Juegos a Full Gamer*/
+	border: 4px solid #74b9ff;
+	border-radius: 8px;
+	margin-top: 2%;
+	background: #25CCF7;
+	}
+#titulo1 h2 {
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+
+header .row img {
+position: absolute;
+z-index: 1;
+width: 4%;
+margin-top: 0.5%;
+}
+
+
+
+
+header .row #joistick2 img {
+right: 1%;
+}
+#barra {
+background-image: url(../img/previ.png);
+border: 4px solid #0097e6;
+border-radius: 8px;
+height: 120px;
+}
+
+/*poner animaciones*/
+
+
+
+.home a {
+position: relative;
+padding: 10px 20px;
+z-index: 5;
+background: #058d9e;
+color: #fff;
+text-transform: uppercase;
+font-family: sans-serif;
+text-decoration: none;
+letter-spacing: 4px;
+transform-style: preserve-3d;
+transition: ease-in-out 2s;
+border-radius: 60px;
+
+}
+
+.home a span {	
+font-weight: bold;
+transform-style: preserve-3d;
+transform: perspective(100px) translateZ(20px);
+}
+.home a:before{
+content: "";
+position: absolute;
+top: 4px;
+left: 6px;
+right: 6px;
+bottom: 4px;
+border: 2px solid #fff;
+transform-style: preserve-3d;
+transform: perspective(500px) translateZ(15px);
+border-radius: 60px;
+}
+
+
+.truco a{
+position: relative;
+padding: 10px 20px;
+background: #058d9e;
+color: #fff;
+text-transform: uppercase;
+font-family: sans-serif;
+text-decoration: none;
+letter-spacing: 4px;
+transform-style: preserve-3d;
+transition: ease-in-out 2s;
+border-radius: 60px;
+}
+
+.truco a span {
+font-weight: bold;
+transform-style: preserve-3d;
+transform: perspective(100px) translateZ(20px);
+}
+.truco a:before{
+content: "";
+position: absolute;
+top: 4px;
+left: 6px;
+right: 6px;
+bottom: 4px;
+border: 2px solid #fff;
+transform-style: preserve-3d;
+transform: perspective(500px) translateZ(15px);
+border-radius: 60px;
+}
+
+.mapa a{
+position: relative;
+padding: 10px 20px;
+background: #058d9e;
+color: #fff;
+text-transform: uppercase;
+font-family: sans-serif;
+text-decoration: none;
+letter-spacing: 4px;
+transform-style: preserve-3d;
+transition: ease-in-out 2s;
+border-radius: 60px;
+}
+.mapa a:before{
+content: "";
+position: absolute;
+top: 4px;
+left: 6px;
+right: 6px;
+bottom: 4px;
+border: 2px solid #fff;
+transform-style: preserve-3d;
+transform: perspective(500px) translateZ(15px);
+border-radius: 60px;
+}
+.contactoid a{
+position: relative;
+padding: 10px 15px;
+
+background: #058d9e;
+color: #fff;
+text-transform: uppercase;
+font-family: sans-serif;
+text-decoration: none;
+letter-spacing: 4px;
+transform-style: preserve-3d;
+transition: ease-in-out 2s;
+border-radius: 60px;
+}
+.contactoid a:before{
+content: "";
+position: absolute;
+top: 4px;
+left: 6px;
+right: 6px;
+bottom: 4px;
+border: 2px solid #fff;
+transform-style: preserve-3d;
+transform: perspective(500px) translateZ(15px);
+border-radius: 60px;
+}
+
+/*Noticias*/
+#secciondos {  background: #cce666;
+	border-radius: 5px;
+	margin-right: 30%;
+	margin-left: 30%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	text-align: center;
+	border: solid #1B9CFC 1px;
+ }
+ /*body imagenes de Noticias*/
+body .dos{
+max-width: 1000px;
+display: flex;
+margin-top: 40px;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.box{
+position: relative;
+width: 225px;
+height: 265px;
+margin-top: 15px;
+background: #000;
+box-shadow: 0 30px 30px rgba(0,0,0,.5);
+}
+.box .imgbx{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+.box .imgbx img{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+transition: 0.5s;
+}
+.box:hover .imgbx img{
+opacity: 0;
+}
+.box .conten{
+position: absolute;
+bottom: 20px;
+left: 10%;
+width: 80%;
+height: 45px;
+/*personalizar background */
+background-image: url(../img/hipx.jpg);
+border-radius: 3px;
+transition: 0.5s;
+overflow: hidden;
+padding: 15px;
+box-sizing: border-box;
+}
+.box:hover .conten{
+width: 100%;
+height: 100%;
+bottom: 0;
+left: 0;
+}
+.box .conten h3{
+margin: -5px 0 0;
+padding: 0;
+font-size: 20px;
+}
+.box .conten p{
+margin: 10px 0 0;
+padding: 0;
+opacity: 0;
+line-height: 1.2em;
+transition: 0.5s;
+text-align: justify;
+}
+.box:hover .conten p{
+opacity: 1;
+transition-delay: 0.5s;
+}
+
+/*Informacion*/
+#seccioncuatro { display: flex;
+	background-image: url(../img/previ.png);
+	height: 200px;
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#seccioncuatro p {
+	margin-left: 2%;
+	margin-top: 1%;
+}
+
+/*Arte y photoshop*/
+.tres { background: red;
+	
+	border-radius: 5px;
+	margin-top: 8%;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: 5%;
+	text-align: center;
+	border: solid #1B9CFC 1px;
+
+	 }
+/*Arte*/
+.carousel-item{
+
+
+
+
+
+
+}
+
+
+footer {
+	background: lightblue;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1%;
+	margin-top: 2%;
+	text-align: center;
+}
+
+#abajo img{
+	width: 5%;
+	display: flex;
+	margin-top: 1%;
+margin-left: 94%;
+margin-bottom: 1%;
+
+}
+
+
+
+
+/*Media Queries*/
+/*XL*/
+@media screen and (min-width:1201px){
+	body{background-image: url(../img/fondo11.jpg);}
+#barra {
+background-image: url(../img/previ.png);
+border: 4px solid #0097e6;
+border-radius: 8px;
+margin-top: 2%;
+}
+.carousel-item{
+margin-left: 23%;
+}
+
+
+/*Lg*/
+@media screen and (min-width: 991px) and (max-width:1200px){
+	body{background-image: url(../img/fondo12.jpg);
+		
+		margin-left: auto;
+		margin-right: auto;}
+
+.carousel-item{
+margin-left: 18%;
+}
+
+
+
+/*Md*/
+@media (min-width: 561px) and (max-width:990px){
+	body{background-image: url(../img/fondo12.jpg);
+	
+        margin-left: auto;
+		margin-right: auto;}
+
+.carousel-item{
+margin-left: 18%;
+}
+
+
+/*Sm*/
+@media (min-width: 0px) and (max-width:560px){
+	body{background-image: url(../img/sheep2.jpg);}
+
+.carousel-item{
+margin-left: 18%;
+}
+
+
+
+
+
